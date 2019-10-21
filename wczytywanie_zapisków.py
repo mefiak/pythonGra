@@ -1,0 +1,10 @@
+def loading(saved):
+  print('Twój zapis gry:')
+  print('Nick:', saved[0])
+  print('Klasa postaci:', saved[1])
+  print('Punkty życia:', saved[2])
+  print('Zadawane obrażenia:', saved[3][0], '-', saved[3][1])
+  print('Szansa na unik:', saved[4])
+  print('Szansa na uleczenie:', saved[5])
+  print('Leczone punkty życia:', saved[6])
+  print('Poziom na którym skończyłeś grę to:', saved[7])
